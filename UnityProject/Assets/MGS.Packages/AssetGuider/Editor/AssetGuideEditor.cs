@@ -22,7 +22,7 @@ namespace MGS.AssetGuider
     public class AssetGuideEditor
     {
         #region Field and Property
-        private const string SETTINGS_PATH = "Assets/MGS.Packages/AssetGuider/Settings/AssetGuiderSettings.asset";
+        private const string SETTINGS_PATH = "Assets/MGS.Packages/AssetGuider/Editor/AssetGuiderSettings.asset";
         #endregion
 
         #region Private Method
