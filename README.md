@@ -28,9 +28,5 @@
 
 1. AssetGuider will be work when the Asset(it's extension config in the AssetGuiderSettings, example Shader) will be opened.
 
-## Preview
-- Asset Guider
-![Asset Guider Settings](./Attachment/images/AssetGuider.gif)
-
 ------
 Copyright © 2021 Mogoson.	mogoson@outlook.com
