@@ -1,0 +1,7 @@
+{
+    "description": "Config a guider to open Unity Asset use the OS default application.",
+    "displayName": "Asset Guider",
+    "name": "com.mgs.assetguider",
+    "unity": "2021.3",
+    "version": "1.0.0"
+}

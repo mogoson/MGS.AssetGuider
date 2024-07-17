@@ -7,6 +7,10 @@
 - Unity 5.0 or above.
 - .Net Framework 3.5 or above.
 
+## Version
+
+- 1.0.0
+
 ## Demand
 - Config a guider to open Unity Asset use the OS default application.
 
@@ -29,4 +33,5 @@
 1. AssetGuider will be work when the Asset(it's extension config in the AssetGuiderSettings, example Shader) will be opened.
 
 ------
+
 Copyright © 2021 Mogoson.	mogoson@outlook.com
