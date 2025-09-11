@@ -1,3 +1,5 @@
+[TOC]
+
 # MGS.AssetGuider
 
 ## Summary
@@ -5,6 +7,14 @@
 
 ## Ability
 - Config a guider to open Unity Asset use the OS default application.
+
+## Install
+
+- Unity --> Window --> Package Manager --> "+" --> Add package from git URL...
+
+  ```text
+  https://github.com/mogoson/MGS.AssetGuider.git?path=/Assets
+  ```
 
 ## Prerequisite
 - Unity provide the API(OnOpenAsset callback attribute) to capture the event of open Asset.
@@ -24,6 +34,6 @@
 
 1. AssetGuider will be work when the Asset(it's extension config in the the Asset Guider Editor, example Shader) will be opened.
 
-------
+---
 
 Copyright © 2025 Mogoson.	mogoson@outlook.com

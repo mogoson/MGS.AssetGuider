@@ -1,7 +1,16 @@
 {
-    "description": "Config a guider to open Unity Asset use the OS default application.",
-    "displayName": "Asset Guider",
     "name": "com.mgs.assetguider",
+    "version": "1.0.0",
+    "displayName": "Asset Guider",
+    "description": "Config a guider to open Unity Asset use the OS default application",
     "unity": "2021.3",
-    "version": "1.0.0"
+    "keywords": [
+        "asset",
+        "guider"
+    ],
+    "author": {
+        "name": "Mogoson",
+        "email": "mogoson@outlook.com",
+        "url": "https://github.com/mogoson"
+    }
 }
