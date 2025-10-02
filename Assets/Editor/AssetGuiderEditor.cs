@@ -14,7 +14,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace MGS.AssetGuider
+namespace MGS.AssetGuider.Editors
 {
     public class AssetGuiderEditor : ScriptableWizard
     {

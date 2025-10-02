@@ -16,7 +16,7 @@ using UnityEditor;
 using UnityEditor.Callbacks;
 using UnityEngine;
 
-namespace MGS.AssetGuider
+namespace MGS.AssetGuider.Editors
 {
     public class AssetGuider
     {
