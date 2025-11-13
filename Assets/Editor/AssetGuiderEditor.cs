@@ -18,7 +18,7 @@ namespace MGS.AssetGuider.Editors
 {
     public class AssetGuiderEditor : ScriptableWizard
     {
-        [MenuItem("Tool/Guider Editor &G")]
+        [MenuItem("Tools/Guider Editor &G")]
         private static void ShowEditor()
         {
             DisplayWizard<AssetGuiderEditor>("Asset Guider Editor", "Save");
