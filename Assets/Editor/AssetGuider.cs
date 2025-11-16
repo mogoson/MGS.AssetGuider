@@ -26,10 +26,11 @@ namespace MGS.AssetGuider.Editors
         private static bool OnOpenAsset(int instanceID, int line)
         {
             var extensions = EditorPrefs.GetString(KEY_GUIDER_EXTENSIONS);
-            var assetPath = Application.dataPath + "/" + AssetDatabase.GetAssetPath(instanceID).Replace("Assets", string.Empty);
-            if (Regex.IsMatch(Path.GetExtension(assetPath), extensions))
+            var assetPath = AssetDatabase.GetAssetPath(instanceID);
+            var filePath = $"{Application.dataPath}/{assetPath.Replace("Assets", string.Empty)}";
+            if (Regex.IsMatch(Path.GetExtension(filePath), extensions))
             {
-                Application.OpenURL(assetPath);
+                Application.OpenURL(filePath);
                 return true;
             }
             return false;

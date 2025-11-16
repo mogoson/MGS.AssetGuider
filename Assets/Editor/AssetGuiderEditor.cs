@@ -19,7 +19,7 @@ namespace MGS.AssetGuider.Editors
     public class AssetGuiderEditor : ScriptableWizard
     {
         [MenuItem("Tools/Guider Editor &G")]
-        private static void ShowEditor()
+        private static void DisplayWizard()
         {
             DisplayWizard<AssetGuiderEditor>("Asset Guider Editor", "Save");
         }
@@ -32,7 +32,7 @@ namespace MGS.AssetGuider.Editors
             extensions = EditorPrefs.GetString(AssetGuider.KEY_GUIDER_EXTENSIONS);
             if (string.IsNullOrEmpty(extensions))
             {
-                extensions = ".txt$|.shader$";
+                extensions = ".txt$|.json$|.shader$";
                 UpdateEditorSettings();
             }
         }
